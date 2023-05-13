@@ -1,0 +1,214 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 2%;
+    border-radius: 2%;
+    border-color: transparent;
+    box-shadow: 0 0 10px;
+    z-index: 2;
+  }
+/* .header{
+    text-align: center;
+    color: white;
+    z-index: 9999999;
+}
+h1{
+    text-shadow: 0 0 2px;
+} */
+.buttonsection{
+    padding: 3px;
+}
+.screen{
+    background-color: rgba(6, 7, 7, 0.784);
+    text-align: end;
+    padding:3px;
+    min-height: 70px;
+    border-radius: 3%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+/* .card1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+} */
+.button{
+    text-align: center;
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    padding: 1.2em;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 100;
+    border-color: transparent;
+    font-style:bold;
+    background-color: rgba(115, 115, 115, 0.366);
+    color: white;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+.buttonset2{
+    padding: 0.5em;
+    padding-bottom: 5px;
+    display: flex;
+}
+.buttonset1{
+    padding: 0.5em;
+    padding-bottom: 5px;
+    display: flex;
+}
+.buttonset3{
+    padding: 0.5em;
+    padding-bottom: 5px;
+    display: flex;
+}
+.buttonset4{
+    padding: 0.5em;
+    padding-bottom: 5px;
+    display: flex;
+}
+.buttonset5{
+    padding: 0.5em;
+    display: flex;
+}
+
+#vert4{
+    background-color: rgb(242, 145, 0);
+    color: white;
+}
+
+[data-color="grey"] {
+    background-color: gray;
+    color: black;
+  }
+
+  .button:active{
+    filter: brightness(70%);
+  }
+
+  [data-color="yellow"] {
+    background-color: rgb(242, 145, 0);
+    color: white;
+  } */ 
+
+  body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.row {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+.row1 {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row2{
+    position: fixed;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row3 {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row4 {
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row5 {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row6 {
+    position: fixed;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row7 {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.row8 {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    display: flex;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+i {
+    color: rgb(30, 29, 29);
+    background-color: transparent;
+    transition: 1s;
+    padding: 1rem;
+}
+
+i:hover {
+    transition: 0s;
+    color: rgb(246, 147, 16);
+    text-shadow: 0 0 5rem rgb(246, 147, 16);
+}
